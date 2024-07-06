@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>p site</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="script" href="script.js">
+    <style>
+        var togglebtn=document.querySelector(".togglebtn")
+
+var nav=document.querySelector(".nav-links")
+var links=document.querySelector(".nav-links li")
+
+togglebtn.addEventListener("click" ,function() {
+    this.classlist.toggle( "click")
+    nav.classlist.toggle( "open")
+})
+    </style>
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo"> 
+                    <i class="fa-solid fa-g"></i>
+                    <div class="logo-text">GABBAR</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">resume</a></li>
+                        <li><a href="#">biog</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="images/bg.png.png" alt="profile pic">
+
+                </div>
+                <div class="hero-text">
+                    <h5>
+                        hi i'm <span class=""> gammer</span>
+                    </h5>
+                    <h1> GABBAR</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ut.</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn active"> download cv</a>
+                        <a href="#" class="btn">contact</a>
+                    </div>
+                    <div class="social">
+                        <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"> <i class="fa-brands fa-intagram"></i></a>
+                        <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    
+</body>
+</html>
